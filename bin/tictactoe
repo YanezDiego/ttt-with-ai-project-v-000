@@ -30,4 +30,6 @@ def single_player
   end
 end
 
-start
+start until gets.strip == "exit"
+
+end
