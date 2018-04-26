@@ -41,6 +41,7 @@ class Game
     def winner
       if winning_combo = won?
         @board.cells[winning_combo.first]
+
       end
     end
 
@@ -68,4 +69,10 @@ class Game
         puts "Cat's Game!"
       end
     end
+      else
+
+      end
+    end
+
+>>>>>>> f165d2b3f1dfa42d0a08e854267c3a65e5db4438
 end
