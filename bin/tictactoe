@@ -19,7 +19,6 @@ def start
     when '3'
       Game.new(Players::Computer.new('X'), Players::Computer.new('O'), Board.new).play
     end
-  end
 end
 
 def single_player
